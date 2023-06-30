@@ -1,6 +1,6 @@
 body {
   font-family: "questrial" sans-serif;
-  background: #697376d1;
+  background: #32442e;
 }
 
 .container {
@@ -25,10 +25,18 @@ body {
   max-width: 45%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color:#e4e4e4;
 }
 
 header {
@@ -70,14 +78,14 @@ header a {
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   padding: 16px 32px;
   display: inline-block;
   color: #272044;
 }
 
 main {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
 }
 main h2 {
   font-weight: 700;
@@ -95,6 +103,7 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+
 }
 main p {
   font-style: normal;
